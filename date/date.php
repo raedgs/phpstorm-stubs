@@ -1124,7 +1124,7 @@ function date_offset_get(DateTimeInterface $object) {}
  */
 #[Pure(true)]
 #[LanguageLevelTypeAware(["8.0" => "DateInterval"], default: "DateInterval|false")]
-function date_diff(DateTimeInterface $baseObject, DateTimeInterface $targetObject, bool $absolute = false) {}
+function date_diff(DateTimeInterface $baseObject, DateTimeInterface $targetObject) {}
 
 /**
  * Alias:
